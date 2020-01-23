@@ -1,0 +1,26 @@
+.top-banner {
+  background-color: #4ca1a2;
+
+  &__inner {
+  }
+
+  &__image {
+    transform: scale(1.15) translate(0%, 0%);
+  }
+
+  &__pentagon {
+    margin-bottom: 4%;
+  }
+
+  &__text {
+    text-align: right;
+    // margin-bottom: ;
+  }
+}
+
+// SECTION BULLETS
+.bullets {
+  &__box {
+    text-align: center;
+  }
+}
