@@ -1,20 +1,47 @@
 .top-banner {
-  background-color: #4ca1a2;
+  background-color: #66b5b6;
+
+  &:after {
+    background-image: url("./assets/doodle.png");
+  }
 
   &__inner {
   }
 
   &__image {
-    transform: scale(1.15) translate(0%, 0%);
+    transform: scale(1.15) translate(0%, 4%);
+  }
+
+  &__image-holder {
+    position: relative;
+  }
+
+  &__img {
+    height: initial;
+
+    &--left {
+      left: 0;
+      z-index: 2;
+      width: 75%;
+    }
+
+    &--right {
+      left: 60%;
+      width: 60%;
+    }
   }
 
   &__pentagon {
     margin-bottom: 4%;
   }
 
+  &__pentagon-holder {
+    background-image: url("./assets/partnerzyh_12.png");
+  }
+
   &__text {
+    padding: 15.5% 17% 0 6%;
     text-align: right;
-    // margin-bottom: ;
   }
 }
 
