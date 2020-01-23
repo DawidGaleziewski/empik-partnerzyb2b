@@ -1,39 +1,713 @@
 <!DOCTYPE html>
+<!-- saved from url=(0024)https://praca.empik.com/ -->
 <html lang="pl">
   <head>
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <link href="./index-praca_files/css" rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="./index-praca_files/styles.css"
+      type="text/css"
+      media="all"
+    />
+    <title>Pracuj w Empiku! Oferty pracy z całej Polski</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://praca.empik.com/16x16_1.png"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700&display=swap&subset=latin-ext"
-      rel="stylesheet"
+      rel="shortcut icon"
+      type="image/png"
+      href="https://media.empik.com/content/strony-specjalne/16x16_1.png"
     />
+    <link
+      rel="stylesheet"
+      href="./index-praca_files/debug.css"
+      type="text/css"
+      media="all"
+    />
+
+    <script src="./index-praca_files/192127791695341" async=""></script>
+    <script async="" src="./index-praca_files/fbevents.js.pobrane"></script>
     <script
-      src="https://kit.fontawesome.com/5244e49073.js"
-      crossorigin="anonymous"
+      type="text/javascript"
+      async=""
+      src="./index-praca_files/analytics.js.pobrane"
     ></script>
-
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-      crossorigin=""
-    />
-
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script
-      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-      crossorigin=""
+      type="text/javascript"
+      async=""
+      src="./index-praca_files/recaptcha__pl.js.pobrane"
     ></script>
-
-    <title>Empik sandbox</title>
+    <script async="" src="./index-praca_files/gtm.js.pobrane"></script>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M5294DK");
+    </script>
   </head>
-  <body>
-    Test
+  <body data-gr-c-s-loaded="true">
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M5294DK"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+
+    <header
+      class="header header--fixed header--transition"
+      style="transform: translateY(0px);"
+    >
+      <div class="ux-container">
+        <div class="header__inner">
+          <a class="header__logo" href="https://praca.empik.com/">
+            <img
+              class="header__logo-img lazy loading"
+              src="./index-praca_files/empik-praca-logo.svg"
+              alt="Logo Empik Praca"
+              data-was-processed="true"
+            />
+          </a>
+          <button class="header__nav-show-btn">
+            Menu
+            <img
+              class="header__nav-show-img lazy loading"
+              src="./index-praca_files/menu-icon.svg"
+              alt="Menu"
+              data-was-processed="true"
+            />
+          </button>
+          <button class="header__nav-hide-btn">
+            Zamknij
+            <img
+              class="header__nav-hide-img lazy"
+              src="./index-praca_files/menu-hide-icon.svg"
+              alt="Zamknij"
+            />
+          </button>
+          <nav class="nav" id="navigation">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="https://praca.empik.com/#meet-us"
+                  >poznaj nas</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="https://praca.empik.com/#teams"
+                  >nasze zespoły</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="https://praca.empik.com/#offers"
+                  >oferty pracy</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="https://praca.empik.com/#news"
+                  >aktualności</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="https://praca.empik.com/#contact"
+                  >kontakt</a
+                >
+              </li>
+            </ul>
+            <div class="nav__outer-links">
+              <a
+                class="nav__outer-link"
+                href="https://praca.empik.com/polityka-prywatnosci"
+                target="_blank"
+              >
+                Polityka prywatności
+              </a>
+              <a
+                class="nav__outer-link"
+                href="https://www.empik.com/"
+                target="_blank"
+              >
+                Wróć do Empik.com
+              </a>
+            </div>
+            <div class="nav__social-links">
+              <a
+                class="nav__social-link"
+                href="https://pl.linkedin.com/company/empik-group"
+                target="_blank"
+              >
+                <img
+                  class="nav__social-img"
+                  src="./index-praca_files/linkedin.svg"
+                  alt="LinkedIn"
+                />
+              </a>
+              <a
+                class="nav__social-link"
+                href="https://www.facebook.com/empikcom"
+                target="_blank"
+              >
+                <img
+                  class="nav__social-img"
+                  src="./index-praca_files/facebook.svg"
+                  alt="Facebook"
+                />
+              </a>
+              <a
+                class="nav__social-link"
+                href="https://twitter.com/empik"
+                target="_blank"
+              >
+                <img
+                  class="nav__social-img"
+                  src="./index-praca_files/twitter.svg"
+                  alt="Twitter"
+                />
+              </a>
+              <a
+                class="nav__social-link"
+                href="https://instagram.com/empikcom"
+                target="_blank"
+              >
+                <img
+                  class="nav__social-img"
+                  src="./index-praca_files/instagram.svg"
+                  alt="Instagram"
+                />
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="top-banner top-banner--fixed-header">
+      <div class="ux-container">
+        <div class="top-banner__inner">
+          <div class="top-banner__pentagon">
+            <a
+              class="top-banner__pentagon--link"
+              href="https://praca.empik.com/#offers"
+            >
+              <div class="top-banner__pentagon-holder">
+                <div class="top-banner__text">
+                  <h2 class="top-banner__header">Witaj w Empiku!</h2>
+                  <p class="top-banner__par">
+                    Empik to przestrzeń, w której pasja napędza ludzi i
+                    innowacje. Tworzymy ją wspólnie, wykorzystując
+                    doświadczenia, wiedzę oraz wyjątkowe charaktery i
+                    zainteresowania każdego z nas. Dzięki temu zmieniliśmy się w
+                    jedną z największych marek omnichannel w Polsce.<br />
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="top-banner__image">
+            <div class="top-banner__image-holder">
+              <img
+                class="top-banner__img lazy loaded"
+                src="./index-praca_files/1566883520211.webp"
+                alt=""
+                data-was-processed="true"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <style>
+      @media (max-width: 1170px) {
+        .top-banner__text {
+          padding: 5% 16% 0 6%;
+        }
+
+        .top-banner__header {
+          margin-bottom: 12px;
+        }
+
+        .top-banner__par {
+          line-height: 1.4;
+        }
+      }
+
+      @media (max-width: 1051px) {
+        .top-banner__header {
+          margin-bottom: 4%;
+        }
+      }
+
+      @media (max-width: 420px) {
+        .top-banner__text {
+          padding: 5% 6% 0;
+        }
+      }
+    </style>
+  
+    <style>
+      .meet-us {
+        margin-bottom: 40px;
+      }
+
+      @media (max-width: 640px) {
+        .meet-us {
+          margin-bottom: 30px;
+        }
+      }
+    </style>
+        <section class="bullets">
+            <div class="ux-container">
+              <div class="bullets__inner">
+                <h3 class="bullets__header">
+                  U nas jest po prostu fajnie
+                </h3>
+                <div class="bullets__boxes">
+                  <div class="bullets__box">
+                    <div class="bullets__bullet">
+                      <img
+                        class="bullets__bullet-img lazy loading"
+                        src="./index-praca_files/1566884956139.webp"
+                        alt=""
+                        data-was-processed="true"
+                      />
+                    </div>
+                    <h4 class="bullets__box-header">
+                      Jesteśmy blisko
+                    </h4>
+                    <p class="bullets__box-par">
+                      Możesz pracować z nami nie ruszając się ze swojego miasta -
+                      oferujemy pracę w jednym z ponad 250 salonów lub w naszym biurze
+                      znajdującym się w samym centrum Warszawy - naprzeciwko Pałacu
+                      Kultury i Nauki.
+                    </p>
+                  </div>
+                  <div class="bullets__box">
+                    <div class="bullets__bullet">
+                      <img
+                        class="bullets__bullet-img lazy loading"
+                        src="./index-praca_files/1566884979862.webp"
+                        alt=""
+                        data-was-processed="true"
+                      />
+                    </div>
+                    <h4 class="bullets__box-header">
+                      Cenimy i wspieramy pasje
+                    </h4>
+                    <p class="bullets__box-par">
+                      Wspieramy Pracowników w realizacji pasji oraz staramy się ich
+                      promować wewnątrz i na zewnątrz organizacji. Wiemy, że jeśli
+                      praca jest bliska naszym zainteresowaniom, to daje prawdziwą
+                      frajdę.
+                    </p>
+                  </div>
+                  <div class="bullets__box">
+                    <div class="bullets__bullet">
+                      <img
+                        class="bullets__bullet-img lazy loading"
+                        src="./index-praca_files/1566885003029.webp"
+                        alt=""
+                        data-was-processed="true"
+                      />
+                    </div>
+                    <h4 class="bullets__box-header">
+                      Świetnie się bawimy
+                    </h4>
+                    <p class="bullets__box-par">
+                      Dobra atmosfera pracy jest ważna – na co dzień dajemy sobie jak
+                      najwięcej życzliwości i pozytywnej energii oraz szanujemy
+                      indywidualny styl. Cenimy poczucie humoru – pozwalamy sobie na
+                      małe szaleństwa.
+                    </p>
+                  </div>
+                  <div class="bullets__box">
+                    <div class="bullets__bullet">
+                      <img
+                        class="bullets__bullet-img lazy loading"
+                        src="./index-praca_files/1566885022631.webp"
+                        alt=""
+                        data-was-processed="true"
+                      />
+                    </div>
+                    <h4 class="bullets__box-header">
+                      Zapewniamy kontakt z kulturą
+                    </h4>
+                    <p class="bullets__box-par">
+                      Dajemy naszym Pracownikom możliwość udziału w wielu wydarzeniach
+                      artystycznych przez udział w konkursach, w których do wygrania
+                      są: bilety na premiery kinowe, wystawy i koncerty.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    <section class="mid-banner-1">
+      <div class="ux-container">
+        <div class="mid-banner-1__inner">
+          <div class="mid-banner-1__pentagon">
+            <div class="mid-banner-1__pentagon-holder">
+              <div class="mid-banner-1__pentagon-text">
+                <p class="mid-banner-1__pentagon-par-0">100</p>
+                <p class="mid-banner-1__pentagon-par-1">
+                  tytułów horrorów zna nasz<br />
+                  Doradca Klienta.
+                </p>
+                <p class="mid-banner-1__pentagon-par-2">
+                  Odważ się i podziel się<br />
+                  pasją z Empikiem!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mid-banner-1__image">
+            <div class="mid-banner-1__image-holder">
+              <img
+                class="mid-banner-1__img lazy loading"
+                src="./index-praca_files/praca_meet-us-guy.webp"
+                alt=""
+                data-was-processed="true"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mid-banner-2">
+      <div class="ux-container">
+        <div class="mid-banner-2__inner">
+          <div class="mid-banner-2__image">
+            <div class="mid-banner-2__image-holder">
+              <img
+                class="mid-banner-2__img lazy loading"
+                src="./index-praca_files/praca_guy-2.webp"
+                alt=""
+                data-was-processed="true"
+              />
+            </div>
+          </div>
+          <div class="mid-banner-2__pentagon">
+            <div class="mid-banner-2__pentagon-holder">
+              <div class="mid-banner-2__pentagon-text">
+                <p class="mid-banner-2__pentagon-par-0">13</p>
+                <p class="mid-banner-2__pentagon-par-1">
+                  algorytmów ułożenia układanki<br />
+                  logicznej znają nasi<br />
+                  programiści.
+                </p>
+                <p class="mid-banner-2__pentagon-par-2">
+                  Zaprogramuj swoją<br />
+                  pasję w Empiku!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="steps">
+      <div class="ux-container">
+        <div class="steps__inner">
+          <h3 class="steps__header">
+            Chcesz dołączyć? To proste!
+          </h3>
+          <div class="steps__boxes">
+            <div class="steps__box">
+              <div class="steps__box-top">
+                <span class="steps__box-number">01</span>
+                <h4 class="steps__box-header">Zaaplikuj</h4>
+              </div>
+              <p class="steps__box-par">
+                Twoje CV jest już u nas i właśnie je analizujemy. Jeśli pasujesz
+                do naszej drużyny, skontaktujemy się z Tobą i zaprosimy Cię na
+                spotkanie w naszym biurze lub w wybranym salonie.
+              </p>
+            </div>
+            <div class="steps__box">
+              <div class="steps__box-top">
+                <span class="steps__box-number">02</span>
+                <h4 class="steps__box-header">Pozwól się poznać</h4>
+              </div>
+              <p class="steps__box-par">
+                Na spotkaniu rekrutacyjnym przybliżymy Ci, jak wygląda praca w
+                Empiku oraz skupimy się na tym, aby dobrze poznać Ciebie i Twoje
+                doświadczenie. Chętnie odpowiemy na Twoje pytania.
+              </p>
+            </div>
+            <div class="steps__box">
+              <div class="steps__box-top">
+                <span class="steps__box-number">03</span>
+                <h4 class="steps__box-header">Witaj na pokładzie!</h4>
+              </div>
+              <p class="steps__box-par">
+                Gratulacje! Na tym etapie otrzymasz ofertę pracy. Po jej
+                zaakceptowaniu, dołączysz do naszej drużyny. Nie obawiaj się
+                pierwszych dni w Empiku – zadbamy o Ciebie.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      window.captchaKey = "6LdPQMMUAAAAAHgxRX9XF__AfZeKF54Xjxzpranj";
+    </script>
+    <section class="contact" id="contact">
+      <div class="ux-container">
+        <div class="contact__inner">
+          <h3 class="contact__header">
+            Kontakt
+          </h3>
+          <div class="contact__form-n-address">
+            <div class="ContactForm contact__form">
+              <form>
+                <label class="contact__form-label" for="email"
+                  >Twój adres email</label
+                ><input
+                  name="emailSender"
+                  type="text"
+                  class="contact__form-input"
+                  id="email"
+                  placeholder="Twój adres email"
+                  value=""
+                /><span class="contact__err-msg"></span
+                ><label class="contact__form-label" for="message"
+                  >Treść wiadomości</label
+                ><textarea
+                  name="mailMessageBody"
+                  class="contact__form-textarea"
+                  id="message"
+                  maxlength="320"
+                  placeholder="Treść wiadomości"
+                ></textarea
+                ><span class="contact__err-msg"></span>
+                <p class="contact__rodo-text">
+                  Administratorem Twoich danych osobowych jest Empik S.A. z
+                  siedzibą w Warszawie. Twoje dane osobowe będą przetwarzane w
+                  celu obsługi Twojego zapytania w ramach formularza
+                  kontaktowego, a także w celach statystycznych i analitycznych
+                  administratora. W razie wyrażenia odpowiedniej zgody Twoje
+                  dane będą przetwarzane także w celu komunikacji marketingowej
+                  e-mailem oraz SMS / MMS. Więcej informacji na temat
+                  przetwarzania danych osobowych znajduje się w naszej&nbsp;<a
+                    class="contact__rodo-text--link"
+                    href="https://praca.empik.com/polityka-prywatnosci"
+                    >Polityce Prywatności.</a
+                  >
+                </p>
+                <div class="contact__recaptcha">
+                  <div style="width: 304px; height: 78px;">
+                    <div>
+                      <iframe
+                        src="./index-praca_files/anchor.html"
+                        width="304"
+                        height="78"
+                        role="presentation"
+                        name="a-e5poh6r9w3ct"
+                        frameborder="0"
+                        scrolling="no"
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                      ></iframe>
+                    </div>
+                    <textarea
+                      id="g-recaptcha-response"
+                      name="g-recaptcha-response"
+                      class="g-recaptcha-response"
+                      style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"
+                    ></textarea>
+                  </div>
+                </div>
+                <button class="contact__submit-btn" type="submit" disabled="">
+                  Wyślij</button
+                ><span
+                  class="contact__success-msg"
+                  data-gtm-vis-recent-on-screen-9828578_12="50535"
+                  data-gtm-vis-first-on-screen-9828578_12="50536"
+                  data-gtm-vis-total-visible-time-9828578_12="100"
+                  data-gtm-vis-has-fired-9828578_12="1"
+                ></span>
+              </form>
+            </div>
+            <div class="contact__address">
+              <div class="contact__pin-col">
+                <img
+                  class="contact__pin-img lazy loading"
+                  src="./index-praca_files/praca_kontakt-pin.webp"
+                  alt=""
+                  data-was-processed="true"
+                />
+              </div>
+              <div class="contact__address-text">
+                <div class="contact__address-data">
+                  <h6 class="contact__address-header">Adres Spółki</h6>
+                  <p class="contact__address-par">
+                    Siedziba Zarządu Spółki Empik S.A.<br />Marszałkowska
+                    104/122<br />00-017 Warszawa
+                  </p>
+                </div>
+                <h6 class="contact__address-header">Znajdź najbliższy salon</h6>
+                <a
+                  class="contact__address-link"
+                  href="https://empik.com/salony-empik"
+                  >Przejdź do mapki</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="ux-container">
+        <div class="footer__inner">
+          <div class="footer__copy">
+            © 2019 Empik S.A.
+          </div>
+          <div class="footer__priv-policy">
+            <a
+              class="footer__priv-policy-link"
+              href="https://praca.empik.com/polityka-prywatnosci"
+              target="_blank"
+            >
+              Polityka prywatności
+            </a>
+          </div>
+          <div class="footer__social">
+            <a
+              class="footer__social-link"
+              href="https://pl.linkedin.com/company/empik-group"
+            >
+              <img
+                class="footer__social-img"
+                src="./index-praca_files/linkedin.svg"
+                alt="LinkedIn"
+              />
+            </a>
+            <a
+              class="footer__social-link"
+              href="https://www.facebook.com/empikcom"
+            >
+              <img
+                class="footer__social-img"
+                src="./index-praca_files/facebook.svg"
+                alt="Facebook"
+              />
+            </a>
+            <a class="footer__social-link" href="https://twitter.com/empik">
+              <img
+                class="footer__social-img"
+                src="./index-praca_files/twitter.svg"
+                alt="Twitter"
+              />
+            </a>
+            <a
+              class="footer__social-link"
+              href="https://instagram.com/empikcom"
+            >
+              <img
+                class="footer__social-img"
+                src="./index-praca_files/instagram.svg"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <style>
+      .career-ourApps
+        .content-slider
+        .empikSwiper-outer-container
+        .swiper-slide
+        img,
+      .career-ourApps
+        .content-slider
+        .empikSwiper-outer-container
+        .swiper-slide
+        .content-text {
+        width: 100%;
+      }
+    </style>
+    <script src="./index-praca_files/bundle.js.pobrane"></script>
+    <script
+      type="text/javascript"
+      src="./index-praca_files/api.js.pobrane"
+      async=""
+      defer=""
+    ></script>
+
+    <script type="text/javascript" id="">
+      !(function(b, e, f, g, a, c, d) {
+        b.fbq ||
+          ((a = b.fbq = function() {
+            a.callMethod
+              ? a.callMethod.apply(a, arguments)
+              : a.queue.push(arguments);
+          }),
+          b._fbq || (b._fbq = a),
+          (a.push = a),
+          (a.loaded = !0),
+          (a.version = "2.0"),
+          (a.queue = []),
+          (c = e.createElement(f)),
+          (c.async = !0),
+          (c.src = g),
+          (d = e.getElementsByTagName(f)[0]),
+          d.parentNode.insertBefore(c, d));
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "192127791695341");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=192127791695341&amp;ev=PageView&amp;noscript=1"
+    /></noscript>
+    <div
+      style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"
+    >
+      <div
+        style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"
+      ></div>
+      <div
+        class="g-recaptcha-bubble-arrow"
+        style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"
+      ></div>
+      <div
+        class="g-recaptcha-bubble-arrow"
+        style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"
+      ></div>
+      <div style="z-index: 2000000000; position: relative;">
+        <iframe
+          title="Zadanie reCAPTCHA"
+          src="./index-praca_files/bframe.html"
+          name="c-e5poh6r9w3ct"
+          frameborder="0"
+          scrolling="no"
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+          style="width: 100%; height: 100%;"
+        ></iframe>
+      </div>
+    </div>
   </body>
 </html>
