@@ -1,0 +1,38 @@
+.candidate-profile {
+  //   background-color: rgba(92, 189, 190, 0.8);
+  background-image: linear-gradient(
+    to right,
+    rgba(92, 189, 190, 0.8) 70%,
+    #fff 30%
+  );
+  padding: 3.9rem 0;
+  color: #fff;
+
+  &__text {
+    max-width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3.3rem;
+  }
+  &__header {
+    font-size: 3.6rem;
+    margin-top: 3.6rem;
+    margin-bottom: 3.9rem;
+  }
+
+  &__paragraph {
+    line-height: 1.4;
+    margin-bottom: 3.9rem;
+    font-size: 1.8rem;
+  }
+
+  &__image-container {
+    width: 35%;
+    // height: 100%;
+    display: inline-block;
+  }
+
+  &__img {
+    max-width: 49.7rem;
+  }
+}
