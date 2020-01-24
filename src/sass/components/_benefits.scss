@@ -25,12 +25,16 @@
   &__box {
     margin-bottom: 5.5rem;
     margin-right: 5.1rem;
-    float: left;
+    // float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   &__bullet {
     margin-right: 3.1rem;
-    float: left;
+    // float: left;
     width: 6.9rem;
     height: 140%;
 
@@ -38,11 +42,11 @@
       width: 100%;
     }
 
-    &:after {
-      content: "";
-      clear: both;
-      display: table;
-    }
+    // &:after {
+    //   content: "";
+    //   clear: both;
+    //   display: table;
+    // }
   }
 
   &__box-header {
@@ -50,7 +54,6 @@
   }
 
   &__box-par {
-    display: block;
     max-width: 46.5rem;
     font-size: 1.6rem;
     line-height: 1.5;
