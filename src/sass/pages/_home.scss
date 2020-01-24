@@ -87,3 +87,45 @@
     text-align: center;
   }
 }
+
+// SECTION STEPS
+.steps {
+  &__inner {
+  }
+
+  &__header {
+  }
+
+  &__boxes {
+    justify-content: center;
+  }
+
+  &__box {
+    max-width: 27rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    padding: 3.7rem 2rem 4.5rem 2rem;
+
+    @media screen and (max-width: 1051px) {
+      &:last-child {
+        margin: initial;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    // @media screen and (max-width: 62.6rem) {
+    //   margin-right: auto;
+    //   margin-left: auto;
+    // }
+  }
+
+  &__box-top {
+    margin-bottom: 2.9rem;
+  }
+
+  &__box-par {
+    max-width: 23.4rem;
+    font-size: 1.4rem;
+  }
+}
