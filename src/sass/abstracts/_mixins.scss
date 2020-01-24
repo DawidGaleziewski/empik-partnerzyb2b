@@ -1,0 +1,10 @@
+// Clearfix
+
+@mixin clearfix {
+  // add sudo element after the element to clear the floats
+  &::after {
+    content: ""; // content needs to be specified for it to affect the dom
+    display: table;
+    clear: both;
+  }
+}
