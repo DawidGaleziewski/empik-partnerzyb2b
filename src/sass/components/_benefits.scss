@@ -1,19 +1,29 @@
 .benefits {
   margin-bottom: 13rem;
+
   &__header {
     margin-bottom: 8.6rem;
     font-size: 3.6rem;
     text-align: center;
+
+    @media screen and (max-width: 54rem) {
+      margin-bottom: 4.6rem;
+      font-size: 3rem;
+    }
   }
 
   &__inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    @media screen and (max-width: 54rem) {
+      display: block;
+    }
   }
 
   &__box {
-    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
     margin-right: 5.1rem;
     float: left;
   }
@@ -22,7 +32,7 @@
     margin-right: 3.1rem;
     float: left;
     width: 6.9rem;
-    height: 110%;
+    height: 140%;
 
     img {
       width: 100%;
@@ -40,8 +50,14 @@
   }
 
   &__box-par {
+    display: block;
     max-width: 46.5rem;
     font-size: 1.6rem;
     line-height: 1.5;
+
+    @media screen and (max-width: 54rem) {
+      line-height: 1.42;
+      font-size: 1.65rem;
+    }
   }
 }

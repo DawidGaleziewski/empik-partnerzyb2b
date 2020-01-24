@@ -1,5 +1,8 @@
 .candidate-profile {
   margin-bottom: 13rem;
+  @media screen and (max-width: 54rem) {
+    margin-bottom: 5.1rem;
+  }
 
   background-image: linear-gradient(
     to right,
